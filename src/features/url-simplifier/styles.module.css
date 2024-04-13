@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 16px;
+}
+
+.row-container {
+    display: flex;
+}
+
+.button {
+    width: 250px;
+}
+
+.greenButton {
+    background-color: #04AA6D;
+    pointer-events: none;
+}
+
