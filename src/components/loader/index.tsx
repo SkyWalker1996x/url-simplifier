@@ -1,0 +1,8 @@
+import classes from 'components/loader//loader.module.css';
+
+const Loader = () => {
+
+  return <div className={classes.loader}></div>;
+};
+
+export default Loader;
